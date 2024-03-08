@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:600px; } */
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #060c21;
+}
+.form {    
+    position: relative;
+    background: #060c21;
+    border:  1px solid #3000b3;
+    width: 350px;
+    padding: 40px 40px 40px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 2s;
+}
+.form h2 {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.form .input {
+    margin-top: 40px;
+    text-align: left;
+}
+.form .input .inputBox {
+    margin-top: 10px;
+}
+.form .input .inputBox label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.form .input .inputBox input {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    background: linear-gradient(315deg, #3000b3, #ad8ae9);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 18px;
+}
+.forgot {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.forgot a {
+    color: #ff0800;
+}
+.social {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social button {
+    width: 75%;
+    border-radius: 18px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    background: transparent;
+    border: 3px solid#222;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.social button i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( #ad8ae9, #3000b3);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+.social button p {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.social button:hover {
+    background: linear-gradient(315deg, #3000b3, #ad8ae9);
+}
+.social button:hover i {
+    filter: invert(1);
+}
+.social button:active {
+    background: linear-gradient(#3000b3, #ad8ae9);
+}
